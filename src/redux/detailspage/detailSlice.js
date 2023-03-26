@@ -18,13 +18,14 @@ const detailSlice = createSlice({
   },
   extraReducers(builder) {
     builder.addCase(fetchDetails.fulfilled, (state, { payload }) => {
-      const arr = payload.network.stations.slice(0, 16);
       const dataObj = {
         name: payload.network.name,
         city: payload.network.location.city,
         country: payload.network.location.country,
         company: payload.network.company,
-        stations: arr,
+        latitude: payload.network.location.latitude,
+        longitude: payload.network.location.longitude,
+        stations: payload.network.stations,
       };
       return { ...state, detail: dataObj };
     });

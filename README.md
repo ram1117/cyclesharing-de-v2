@@ -37,7 +37,7 @@
 # 📖 CycleShare - DE - V2<a name="about-project"></a>
 
 
-**CycleShare - DE - V2** is an improved version of the cycleshare-de project. In this version I am plotting bike station locations for a city on Google Maps. The data is obtained from [CityBikes API](https://api.citybik.es/v2/). The app is primary developed for mobile screens. I used React for UI components and Redux for state management.
+**CycleShare - DE - V2** is an improved version of the cycleshare-de project. In this version I am plotting bike station locations for a city on OpenStreet Map using react-leaflet library. The data is obtained from [CityBikes API](https://api.citybik.es/v2/). The app is primary developed for mobile screens. I used React for UI components and Redux for state management.
 
 
 ## 🛠 Built With <a name="built-with"></a>

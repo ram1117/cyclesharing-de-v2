@@ -3,6 +3,7 @@
   font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
   background: rgba(77, 140, 87, 0.7);
   color: beige;
+  padding-bottom: 5%;
 }
 
 .beige {
@@ -138,41 +139,24 @@
   font-size: 1.3rem;
 }
 
-.location-details {
-  display: grid;
-  grid-template-columns: 1fr;
-}
-
-.station-detail {
-  margin: 5%;
-  padding: 5%;
-  border: solid 2px rgba(1, 50, 32, 0.9);
-  background: rgba(1, 50, 32, 0.4);
-  font-weight: 800;
-  border-radius: 20px;
-}
-
-.station-detail > * {
-  margin: 2%;
-}
-
-.station-detail > h3 {
-  font-size: 1.3rem;
-}
-
-.station-detail > p {
-  font-size: 1.1rem;
-}
-
 .coordinates {
-  width: 90%;
-  padding: 5% 2%;
-  text-align: center;
+  padding: 2%;
+  margin: 0 auto;
   border-radius: 10px;
   border: solid 2px rgba(1, 50, 32, 0.9);
-  background: beige;
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 500;
+}
+
+.leaflet-container {
+  height: 90vh;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.no-data {
+  text-align: center;
+  padding-bottom: 5%;
 }
 
 @media screen and (min-width: 768px) {
