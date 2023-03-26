@@ -10,7 +10,7 @@ const store = configureStore({
     detail: detailSliceReducer,
     language: languageSliceReducer,
   },
-  // middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat(logger),
+  middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat(logger),
 });
 
 export default store;

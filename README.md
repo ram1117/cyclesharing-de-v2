@@ -39,6 +39,12 @@
 
 **CycleShare - DE - V2** is an improved version of the cycleshare-de project. In this version I am plotting bike station locations for a city on OpenStreet Map using react-leaflet library. The data is obtained from [CityBikes API](https://api.citybik.es/v2/). The app is primary developed for mobile screens. I used React for UI components and Redux for state management.
 
+Below, you can see the Details page in version 1 and in version 2.
+
+<p float="left">
+  <img src="readme-res/screenshot1.png" width="500" height="500" />
+  <img src="readme-res/screenshot2.png" width="500" height="500" /> 
+</p>
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -61,7 +67,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- Live demo is hosted in [my Render](https://cyclesharing-de-ram.onrender.com)
+- Live demo is hosted in [Netlify](https://cyclsharing-de-v2.netlify.app/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -155,7 +161,6 @@ The above command creates build files that can be deployed using Github pages or
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **Add More regions and languages**
-- [ ] **Add Map to plot the bike stations**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
