@@ -67,7 +67,7 @@ Below, you can see the Details page in version 1 and in version 2.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- Live demo is hosted in [Netlify](https://cyclsharing-de-v2.netlify.app/)
+- Live demo is hosted on [Render](https://cyclesharing-de-v2.onrender.com)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
