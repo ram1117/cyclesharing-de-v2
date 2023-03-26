@@ -87,20 +87,23 @@
 
 .city-tile {
   text-align: left;
-  background: rgba(77, 140, 87, 0.7) url('../src/assets/arrow-icon.svg')
+  background:
+    rgba(77, 140, 87, 0.7) url('../src/assets/arrow-icon.svg')
     no-repeat 90% 80% / 15%;
   padding: 1rem;
 }
 
 .cities-wrapper > a:nth-child(4n-3),
 .cities-wrapper > a:nth-child(4n) {
-  background: url('../src/assets/cycle2.png') 90% 10% / 30% no-repeat,
+  background:
+    url('../src/assets/cycle2.png') 90% 10% / 30% no-repeat,
     url('../src/assets/arrow-icon.svg') no-repeat 90% 80% / 15%;
 }
 
 .cities-wrapper > a:nth-child(4n-2),
 .cities-wrapper > a:nth-child(4n-1) {
-  background: url('../src/assets/cycle1.png') rgba(1, 50, 32, 0.4) 90% 10% / 40%
+  background:
+    url('../src/assets/cycle1.png') rgba(1, 50, 32, 0.4) 90% 10% / 40%
     no-repeat;
 }
 
@@ -173,12 +176,14 @@
   }
 
   .cities-wrapper > a:nth-child(odd) {
-    background: url('../src/assets/cycle2.png') 90% 10% / 30% no-repeat,
+    background:
+      url('../src/assets/cycle2.png') 90% 10% / 30% no-repeat,
       url('../src/assets/arrow-icon.svg') no-repeat 90% 80% / 15%;
   }
 
   .cities-wrapper > a:nth-child(even) {
-    background: url('../src/assets/cycle1.png') rgba(1, 50, 32, 0.4) 90% 10% /
+    background:
+      url('../src/assets/cycle1.png') rgba(1, 50, 32, 0.4) 90% 10% /
       40% no-repeat;
   }
 }
