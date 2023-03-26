@@ -3,6 +3,7 @@
   font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
   background: rgba(77, 140, 87, 0.7);
   color: beige;
+  padding-bottom: 5%;
 }
 
 .beige {
@@ -86,23 +87,20 @@
 
 .city-tile {
   text-align: left;
-  background:
-    rgba(77, 140, 87, 0.7) url('../src/assets/arrow-icon.svg')
+  background: rgba(77, 140, 87, 0.7) url('../src/assets/arrow-icon.svg')
     no-repeat 90% 80% / 15%;
   padding: 1rem;
 }
 
 .cities-wrapper > a:nth-child(4n-3),
 .cities-wrapper > a:nth-child(4n) {
-  background:
-    url('../src/assets/cycle2.png') 90% 10% / 30% no-repeat,
+  background: url('../src/assets/cycle2.png') 90% 10% / 30% no-repeat,
     url('../src/assets/arrow-icon.svg') no-repeat 90% 80% / 15%;
 }
 
 .cities-wrapper > a:nth-child(4n-2),
 .cities-wrapper > a:nth-child(4n-1) {
-  background:
-    url('../src/assets/cycle1.png') rgba(1, 50, 32, 0.4) 90% 10% / 40%
+  background: url('../src/assets/cycle1.png') rgba(1, 50, 32, 0.4) 90% 10% / 40%
     no-repeat;
 }
 
@@ -138,41 +136,24 @@
   font-size: 1.3rem;
 }
 
-.location-details {
-  display: grid;
-  grid-template-columns: 1fr;
-}
-
-.station-detail {
-  margin: 5%;
-  padding: 5%;
-  border: solid 2px rgba(1, 50, 32, 0.9);
-  background: rgba(1, 50, 32, 0.4);
-  font-weight: 800;
-  border-radius: 20px;
-}
-
-.station-detail > * {
-  margin: 2%;
-}
-
-.station-detail > h3 {
-  font-size: 1.3rem;
-}
-
-.station-detail > p {
-  font-size: 1.1rem;
-}
-
 .coordinates {
-  width: 90%;
-  padding: 5% 2%;
-  text-align: center;
+  padding: 2%;
+  margin: 0 auto;
   border-radius: 10px;
   border: solid 2px rgba(1, 50, 32, 0.9);
-  background: beige;
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 500;
+}
+
+.leaflet-container {
+  height: 90vh;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.no-data {
+  text-align: center;
+  padding-bottom: 5%;
 }
 
 @media screen and (min-width: 768px) {
@@ -192,14 +173,12 @@
   }
 
   .cities-wrapper > a:nth-child(odd) {
-    background:
-      url('../src/assets/cycle2.png') 90% 10% / 30% no-repeat,
+    background: url('../src/assets/cycle2.png') 90% 10% / 30% no-repeat,
       url('../src/assets/arrow-icon.svg') no-repeat 90% 80% / 15%;
   }
 
   .cities-wrapper > a:nth-child(even) {
-    background:
-      url('../src/assets/cycle1.png') rgba(1, 50, 32, 0.4) 90% 10% /
+    background: url('../src/assets/cycle1.png') rgba(1, 50, 32, 0.4) 90% 10% /
       40% no-repeat;
   }
 }
